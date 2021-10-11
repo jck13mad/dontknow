@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/home/Home';
+import CustomCursor from 'custom-cursor-react';
+import 'custom-cursor-react/dist/index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-gradient-to-r from-pinkish-100 to-cyan-500 h-screen w-screen cursor-none sm:bg-album md:bg-album">
+        <CustomCursor
+          targets={['.link', '.your-css-selector']}
+          customClass='custom-cursor'
+          dimensions={25}
+          fill='black'
+          smoothness={{
+            movement: 0.8,
+            scale: 1,
+            opacity: 0.6,
+          }}
+          targetOpacity={0.5}
+        />
+        <Home />
+
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.full-pic:hover {
+    #bottle {
+        transform: translate(-100px, -250px) scale(2.25);
+    }
+
+    #sam {
+        transform: translate(0, -20px) scale(3.5);
+    }
+
+    #smoke {
+        transform: translate(0, 80px) scale(3.5);
+    }
+
+    #sword-left {
+        transform: translate(-270px, 150px) scale(3.5);
+    }
+
+    #sword-right {
+        transform: translate(285px, 160px) scale(2.75);
+    }
+}
