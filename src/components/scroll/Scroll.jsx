@@ -1,6 +1,6 @@
 import React from 'react';
 import Marquee from "react-fast-marquee";
-import './Scroll.scss'
+import '../Scroll.scss'
 
 function Scroll() {
     return (
