@@ -5,10 +5,10 @@ function Picture() {
     return (
         <div className="group full-pic">
             <div className="w-96 h-96 top-64 right-60 absolute z-20 group-hover:opacity-50 duration-1000 overflow-hidden">
-                <img src="../../dontknow.jpg" alt="album cover" />
+                <img src="./dontknow.jpg" alt="album cover" />
             </div>
             <div className="">
-                <img src="../../bottle.png" alt="bottle" id="bottle"
+                <img src="./bottle.png" alt="bottle" id="bottle"
                     className="
                         w-10 
                         h-20 
