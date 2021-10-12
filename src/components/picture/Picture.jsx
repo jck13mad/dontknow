@@ -31,7 +31,7 @@ function Picture() {
                 <img src="./smoke.png" alt="smoke" id="smoke"
                     className="
                         w-30 
-                        h-44 
+                        h-40 
                         absolute 
                         top-96 
                         right-80 
