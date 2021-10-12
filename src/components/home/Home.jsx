@@ -27,16 +27,16 @@ function Home() {
             </div>
             <div className="links">
                 <a href="https://open.spotify.com/album/7mqcItrwEn9rrDZS6x3x0X?si=9SMLBXEeQiWH3fFKItXCFQ&dl_branch=1">
-                    <img src="../../spotify.png" alt="spotify" className="spotify hover:scale-125"/>
+                    <img src="./spotify.png" alt="spotify" className="spotify hover:scale-125"/>
                 </a>
                 <a href="https://music.apple.com/us/album/dont-know-single/1586423160">
-                    <img src="../../apple.png" alt="apple music" className="apple hover:scale-125"/>
+                    <img src="./apple.png" alt="apple music" className="apple hover:scale-125"/>
                 </a>
                 <a href="https://twitter.com/samisyoungish?lang=en">
-                    <img src="../../twitter.png" alt="twitter" className="twitter hover:scale-125"/>
+                    <img src="./twitter.png" alt="twitter" className="twitter hover:scale-125"/>
                 </a>
                 <a href="/">
-                    <img src="../../instagram.png" alt="instagram" className="insta hover:scale-125"/>
+                    <img src="./instagram.png" alt="instagram" className="insta hover:scale-125"/>
                 </a>
             </div>
             <Song />

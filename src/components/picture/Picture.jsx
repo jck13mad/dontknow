@@ -18,7 +18,7 @@ function Picture() {
                         z-10 
                         group-hover:z-30 
                         group-hover:scale-300 ease-in-out duration-1000" />
-                <img src="../../body.png" alt="sam" id="sam"
+                <img src="./body.png" alt="sam" id="sam"
                     className="
                         w-30 
                         h-44 
@@ -28,7 +28,7 @@ function Picture() {
                         z-10 
                         group-hover:scale-300 ease-in-out duration-1000 
                         group-hover:z-30" />
-                <img src="../../smoke.png" alt="smoke" id="smoke"
+                <img src="./smoke.png" alt="smoke" id="smoke"
                     className="
                         w-30 
                         h-44 
@@ -38,7 +38,7 @@ function Picture() {
                         z-10 
                         group-hover:scale-300 ease-in-out duration-1000 
                         group-hover:z-30 " />
-                <img src="../../sword-left.png" alt="sword-left" id="sword-left"
+                <img src="./sword-left.png" alt="sword-left" id="sword-left"
                     className="
                         w-30 
                         h-8 
@@ -48,7 +48,7 @@ function Picture() {
                         z-10 
                         group-hover:scale-300 ease-in-out duration-1000 
                         group-hover:z-30 " />
-                <img src="../../sword-right.png" alt="sword-right" id="sword-right"
+                <img src="./sword-right.png" alt="sword-right" id="sword-right"
                     className="
                         w-30 
                         h-8 
