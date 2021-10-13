@@ -5,20 +5,16 @@ import './Scroll.scss'
 function Scroll() {
     return (
         <div className="overflow-hidden">
-            <div className="marquee-container">
-                <Marquee speed='100' className="scroll-1 font-mono t-0 fixed" gradientWidth="0">
+                <Marquee speed='100' className="scroll-1 font-mono b-549 fixed" gradientWidth="0">
                     OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW...
                     OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW...  
                     OUT NOW... OUT NOW... OUT NOW... OUT NOW...
                 </Marquee>
-            </div>
-            <div className="marquee-container">
-                <Marquee speed='100' className="scroll-2 font-mono b-0 fixed" gradientWidth="0" direction="right">
+                <Marquee speed='100' className="scroll-2 font-mono t-549 fixed" gradientWidth="0" direction="right">
                     OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW...
                     OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW... OUT NOW...  
                     OUT NOW... OUT NOW... OUT NOW... OUT NOW...
                 </Marquee>
-            </div>
         </div>
     )
 }
