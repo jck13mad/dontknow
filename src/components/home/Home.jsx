@@ -35,7 +35,7 @@ function Home() {
                 <a href="https://twitter.com/samisyoungish?lang=en">
                     <img src="./twitter.png" alt="twitter" className="twitter hover:scale-125"/>
                 </a>
-                <a href="/">
+                <a href="#">
                     <img src="./instagram.png" alt="instagram" className="insta hover:scale-125"/>
                 </a>
             </div>
