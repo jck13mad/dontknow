@@ -4,7 +4,16 @@ import './Picture.scss';
 function Picture() {
     return (
         <div className="group full-pic">
-            <div className="w-96 h-96 top-64 right-60 absolute z-20 group-hover:opacity-50 duration-1000 overflow-hidden">
+            <div className="
+                w-96 
+                h-96 
+                top-64 
+                right-60 
+                absolute 
+                z-20 
+                group-hover:opacity-50 
+                duration-1000 
+                overflow-hidden">
                 <img src="./dontknow.jpg" alt="album cover" />
             </div>
             <div className="
@@ -19,7 +28,7 @@ function Picture() {
                 overflow-hidden 
                 bg-gray-400
                 rounded-md">
-                <h3 className="text-gray-50">Hover Here</h3>
+                <h3 className="text-gray-50 w-8 h-8">Hover Here</h3>
             </div>
             <div className="">
                 <img src="./bottle.png" alt="bottle" id="bottle"
