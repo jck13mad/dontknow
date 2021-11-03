@@ -13,7 +13,7 @@ function Picture() {
                 h-4 
                 right-60 
                 top-64 
-                z-20 
+                z-30 
                 group-hover:opacity-0 
                 duration-1000 
                 overflow-hidden 
