@@ -28,7 +28,7 @@ function Picture() {
                 overflow-hidden 
                 bg-gray-400
                 rounded-md">
-                <h3 className="text-gray-50 w-8 h-8 text-base">Hover Here</h3>
+                <h3 className="text-gray-50 w-8 h-8 text-base float-right">Hover Here</h3>
             </div>
             <div className="">
                 <img src="./bottle.png" alt="bottle" id="bottle"
