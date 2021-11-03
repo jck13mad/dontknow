@@ -10,7 +10,7 @@ function Picture() {
             <div className="
                 relative 
                 w-10 
-                h-4 
+                h-10 
                 right-60 
                 top-64 
                 z-30 
