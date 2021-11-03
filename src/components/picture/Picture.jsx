@@ -6,6 +6,7 @@ function Picture() {
         <div className="group full-pic">
             <div className="w-96 h-96 top-64 right-60 absolute z-20 group-hover:opacity-50 duration-1000 overflow-hidden">
                 <img src="./dontknow.jpg" alt="album cover" />
+                <h3 className="bg-gray-600 bg-auto bg-center">Hover Here</h3>
             </div>
             <div className="">
                 <img src="./bottle.png" alt="bottle" id="bottle"
